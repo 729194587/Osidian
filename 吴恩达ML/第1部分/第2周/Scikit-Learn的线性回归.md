@@ -23,6 +23,9 @@ scaler = StandardScaler()
 X_norm = scaler.fit_transform(X_train)
 print(f"Peak to Peak range by column in Raw        X:{np.ptp(X_train,axis=0)}")   
 print(f"Peak to Peak range by column in Normalized X:{np.ptp(X_norm,axis=0)}")
+#运行结果
+#Peak to Peak range by column in Raw X:[2.41e+03 4.00e+00 1.00e+00 9.50e+01] 
+#Peak to Peak range by column in Normalized X:[5.85 6.14 2.06 3.69]
 ```
 ### 创建并拟合回归模型
 ```python
@@ -30,6 +33,8 @@ sgdr = SGDRegressor(max_iter=1000)
 sgdr.fit(X_norm, y_train)
 print(sgdr)
 print(f"number of iterations completed: {sgdr.n_iter_}, number of weight updates: {sgdr.t_}")
+#SGDRegressor() number of iterations completed: 129, number of weight updates: 12772.0
+#模型在随机梯度下降回归器SGDRegressor里迭代129次，权重被更新12772次。
 ```
 ### 查看参数
 ```python
@@ -37,6 +42,8 @@ b_norm = sgdr.intercept_
 w_norm = sgdr.coef_
 print(f"model parameters:                   w: {w_norm}, b:{b_norm}")
 print( "model parameters from previous lab: w: [110.56 -21.27 -32.71 -37.97], b: 363.16")
+#model parameters: w: [110.2 -21.11 -32.48 -38.04], b:[363.14] 
+#model parameters from previous lab: w: [110.56 -21.27 -32.71 -37.97], b: 363.16
 ```
 ### 做出预测
 ```python
@@ -47,6 +54,9 @@ print(f"prediction using np.dot() and sgdr.predict match: {(y_pred == y_pred_sgd
 
 print(f"Prediction on training set:\n{y_pred[:4]}" )
 print(f"Target values \n{y_train[:4]}")
+#prediction using np.dot() and sgdr.predict match: True 
+#Prediction on training set: [295.13 485.92 389.59 492.08] 
+#Target values [300. 509.8 394. 540. ]
 ```
 可视化
 ```python
