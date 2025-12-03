@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "c4a2a43b9ab000dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e64976539346db72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87e17efb3a0e9054",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31c8699846c4ee06",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bd5dfdec30a416f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "753cbeca7a55f9a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "48444cdb6c322bd0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a13bb2da1ba2919c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "12a28d5379bea43a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd770f0ab3e66fae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a93c1d0ae982c2c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS：APP阅读笔记/第八章/第八章部分课后作业.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "第八章部分课后作业 的反向链接列表"
+            }
+          },
+          {
+            "id": "5c414ab1faefa4aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "9.10垃圾收集.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "9.10垃圾收集 的出链列表"
+            }
+          },
+          {
+            "id": "111133671563ad80",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "4b1101ea9c94b69c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "8.1异常.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "8.1异常 的大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "87e17efb3a0e9054",
+  "lastOpenFiles": [
+    "吴恩达ML/第1部分/第3周/第3周笔记.md",
+    "leetcode刷题/数组/15.三数之和.md",
+    "欢迎.md",
+    "吴恩达ML/第1部分/第1周/第1周笔记.md",
+    "吴恩达ML/第1部分/第2周/第2周笔记.md",
+    "吴恩达ML/第1部分/第3周",
+    "吴恩达ML/第1部分/第2周/Scikit-Learn的线性回归.md",
+    "吴恩达ML/第1部分/第2周",
+    "吴恩达ML/第1部分/第1周",
+    "吴恩达ML/第1部分/第2周/NumPy.md",
+    "leetcode刷题/数组/14 最长前缀匹配.md",
+    "leetcode刷题/数组/11.盛最多的水.md",
+    "吴恩达ML/第1部分/第2周/切片运行结果.png",
+    "吴恩达ML/第1部分/第2周/NumPy数组初始化.png",
+    "optional python和numpy.md",
+    "吴恩达ML/第1部分/第1周/梯度下降运行结果.png",
+    "leetcode刷题/数组/4.寻找两个正序数组的中位数.md",
+    "leetcode刷题/数组/1.两数之和.md",
+    "leetcode刷题/链表/2.两数相加.md",
+    "leetcode刷题/链表",
+    "leetcode刷题/数组",
+    "吴恩达ML/第1部分",
+    "吴恩达ML",
+    "Algorithms/第3部分/算法应用.md",
+    "Algorithms/第3部分/3.1 算法分析.md",
+    "Algorithms/第1部分/module 1.md",
+    "Algorithms/第2部分/2.1 并查集.md",
+    "Algorithms/第2部分/2.4 蒙特卡洛模拟渗流.md",
+    "Algorithms/第2部分/蒙特卡洛模拟渗流运行结果.png",
+    "leetcode刷题",
+    "Algorithms/第2部分/2.3 渗流.md",
+    "Algorithms/第2部分/2.2 并查集应用.md",
+    "Algorithms/第2部分/手动示例运行结果.png",
+    "CS：APP阅读笔记/第12章 并发编程/12.3基于线程的并发编程.md",
+    "Algorithms/第2部分",
+    "Algorithms/第1部分.md",
+    "Algorithms/第4部分",
+    "第一节课.md",
+    "CS：APP阅读笔记/第9章 虚拟内存/9.1虚拟内存和Linux虚存.md",
+    "CS：APP阅读笔记/第12章 并发编程/12.6 使用线程提高并行性.md",
+    "CS：APP阅读笔记/第12章 并发编程/12.4 多线程程序中的共享变量.md",
+    "CS：APP阅读笔记/第9章 虚拟内存/有向可达图.png",
+    "CS：APP阅读笔记/第11章 网络编程/基于套接字接口的网络应用概述.png"
+  ]
+}
